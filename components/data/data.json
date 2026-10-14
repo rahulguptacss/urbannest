@@ -1,0 +1,2474 @@
+{
+  "common": {
+    "Header": {
+      "logo": "/logo/logo.webp",
+      "logo_text": "UrbanNest",
+      "logo_subtext": "REAL ESTATE",
+      "links": [
+        {
+          "name": "Home",
+          "href": "/",
+          "active": true
+        },
+        {
+          "name": "About Us",
+          "href": "/about"
+        },
+        {
+          "name": "Our Properties",
+          "href": "/properties"
+        },
+        {
+          "name": "Our Clients",
+          "href": "/clients"
+        },
+        {
+          "name": "Our Team",
+          "href": "/team"
+        },
+        {
+          "name": "Blog",
+          "href": "/blog"
+        },
+        {
+          "name": "Gallery",
+          "href": "/gallery"
+        },
+        {
+          "name": "Contact Us",
+          "href": "/contact"
+        }
+      ],
+      "button_text": "Enquiry Now",
+      "button_link": "/enquiry"
+    },
+    "Footer": {
+      "logo": "/logo/white-logo.webp",
+      "background": "/img/footerbg.webp",
+      "logo_text": "UrbanNest",
+      "logo_subtext": "REAL ESTATE",
+      "description": "At UrbanNest Real Estate, we help you find the perfect property to match your lifestyle and investment goals. From residential to commercial, we turn your real estate dreams into reality with trust, transparency, and expert guidance.",
+      "headings": {
+        "quick_links": "Quick Links",
+        "our_services": "Our Properties",
+        "contact": "Contact Information"
+      },
+      "quick_links": [
+        {
+          "name": "Home",
+          "href": "/"
+        },
+        {
+          "name": "About Us",
+          "href": "/about"
+        },
+        {
+          "name": "Our Clients",
+          "href": "/clients"
+        },
+        {
+          "name": "Our Team",
+          "href": "/team"
+        },
+        {
+          "name": "Blog",
+          "href": "/blog"
+        },
+        {
+          "name": "Gallery",
+          "href": "/gallery"
+        },
+        {
+          "name": "Contact Us",
+          "href": "/contact"
+        }
+      ],
+      "our_services": [
+        {
+          "name": "3 BHK Luxury Apartment",
+          "href": "/properties/3-bhk-luxury-apartment"
+        },
+        {
+          "name": "4 BHK Independent Villa",
+          "href": "/properties/4-bhk-independent-villa"
+        },
+        {
+          "name": "2 BHK Apartment",
+          "href": "/properties/2-bhk-apartment"
+        },
+        {
+          "name": "3 BHK Row House",
+          "href": "/properties/3-bhk-row-house"
+        },
+        {
+          "name": "Commercial Office Space",
+          "href": "/properties/commercial-office-space"
+        },
+        {
+          "name": "Residential Plot",
+          "href": "/properties/residential-plot"
+        }
+      ],
+      "contact": {
+        "address": "123 Education Lane, New York, NY 10001",
+        "email": "info@xyz.com",
+        "phone": "+100000000000",
+        "phone_secondary": "+100000000000",
+        "hours": "Mon - Sat: 9:00 AM - 7:00 PM",
+        "hours_secondary": "Sunday: 10:00 AM - 5:00 PM"
+      },
+      "copyright": "Copyright © 2026. All rights reserved. Powered by Lestow",
+      "socials": [
+        {
+          "name": "Facebook",
+          "href": "https://facebook.com"
+        },
+        {
+          "name": "Instagram",
+          "href": "https://instagram.com"
+        },
+        {
+          "name": "Linkedin",
+          "href": "https://linkedin.com"
+        },
+        {
+          "name": "Youtube",
+          "href": "https://youtube.com"
+        }
+      ]
+    }
+  },
+  "categories": {
+    "RealEstate": {
+      "templateComponents": {
+        "template-1": {
+          "pages": {
+            "home": {
+              "title": "Home",
+              "pageName": "Home",
+              "metadata": {
+                "title": "UrbanNest - Modern Homes For A Better Tomorrow",
+                "description": "Find your perfect home with UrbanNest Real Estate."
+              },
+              "components": [
+                {
+                  "key": "HeroSection",
+                  "component": "Hero"
+                },
+                {
+                  "key": "AboutSection",
+                  "component": "About"
+                },
+                {
+                  "key": "PropertiesSection",
+                  "component": "Properties"
+                },
+                {
+                  "key": "StatsSection",
+                  "component": "Stats"
+                },
+                {
+                  "key": "TestimonialsSection",
+                  "component": "Testimonials"
+                },
+                {
+                  "key": "BlogsSection",
+                  "component": "Blogs"
+                },
+                {
+                  "key": "CtaSection",
+                  "component": "Cta"
+                }
+              ]
+            },
+            "about": {
+              "title": "About Us",
+              "pageName": "About Us",
+              "metadata": {
+                "title": "About Us | UrbanNest",
+                "description": "Building better homes for brighter lives."
+              },
+              "breadcrumb": {
+                "title": "About Us",
+                "items": [
+                  {
+                    "name": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "name": "About Us",
+                    "href": "/about"
+                  }
+                ]
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "AboutSection",
+                  "component": "About"
+                },
+                {
+                  "key": "StatsSection",
+                  "component": "Stats"
+                },
+                {
+                  "key": "MissionSection",
+                  "component": "Mission"
+                },
+                {
+                  "key": "WhyChooseSection",
+                  "component": "WhyChoose"
+                },
+                {
+                  "key": "TestimonialsSection",
+                  "component": "Testimonials"
+                }
+              ]
+            },
+            "properties": {
+              "title": "Our Properties",
+              "pageName": "Our Properties",
+              "metadata": {
+                "title": "Our Properties | UrbanNest",
+                "description": "Featured homes, villas, and commercial spaces."
+              },
+              "breadcrumb": {
+                "title": "Our Properties",
+                "items": [
+                  {
+                    "name": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "name": "Our Properties",
+                    "href": "/properties"
+                  }
+                ]
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "PropertiesSection",
+                  "component": "Properties"
+                }
+              ]
+            },
+            "team": {
+              "title": "Our Team",
+              "pageName": "Our Team",
+              "metadata": {
+                "title": "Our Team | UrbanNest",
+                "description": "Meet the UrbanNest property advisors."
+              },
+              "breadcrumb": {
+                "title": "Our Teams",
+                "items": [
+                  {
+                    "name": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "name": "Our Teams",
+                    "href": "/team"
+                  }
+                ]
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "TeamSection",
+                  "component": "Team"
+                }
+              ]
+            },
+            "blog": {
+              "title": "Blog",
+              "pageName": "Blog",
+              "metadata": {
+                "title": "Blog | UrbanNest",
+                "description": "Latest insights and real estate updates."
+              },
+              "breadcrumb": {
+                "title": "Blog",
+                "items": [
+                  {
+                    "name": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "name": "Blog",
+                    "href": "/blog"
+                  }
+                ]
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "BlogsSection",
+                  "component": "Blogs"
+                }
+              ]
+            },
+            "gallery": {
+              "title": "Gallery",
+              "pageName": "Gallery",
+              "metadata": {
+                "title": "Gallery | UrbanNest",
+                "description": "A look at homes and communities by UrbanNest."
+              },
+              "breadcrumb": {
+                "title": "Our Gallery",
+                "items": [
+                  {
+                    "name": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "name": "Our Gallery",
+                    "href": "/gallery"
+                  }
+                ]
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "GallerySection",
+                  "component": "Gallery"
+                }
+              ]
+            },
+            "contact": {
+              "title": "Contact Us",
+              "pageName": "Contact Us",
+              "metadata": {
+                "title": "Contact Us | UrbanNest",
+                "description": "Talk to UrbanNest about your next home."
+              },
+              "breadcrumb": {
+                "title": "Contact Us",
+                "items": [
+                  {
+                    "name": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "name": "Contact Us",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "ContactSection",
+                  "component": "Contact"
+                }
+              ]
+            },
+            "enquiry": {
+              "title": "Enquiry Now",
+              "pageName": "Enquiry",
+              "metadata": {
+                "title": "Enquiry | UrbanNest",
+                "description": "Send a property enquiry to UrbanNest."
+              },
+              "breadcrumb": {
+                "title": "Enquiry Now",
+                "items": [
+                  {
+                    "name": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "name": "Enquiry Now",
+                    "href": "/enquiry"
+                  }
+                ]
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "EnquirySection",
+                  "component": "Enquiry"
+                }
+              ]
+            },
+            "thank_you": {
+              "title": "Thank You",
+              "pageName": "Thank You",
+              "metadata": {
+                "title": "Thank You | UrbanNest",
+                "description": "We have received your enquiry."
+              },
+              "components": [
+                {
+                  "key": "ThankYouSection",
+                  "component": "ThankYou"
+                }
+              ]
+            },
+            "property_details": {
+              "title": "Property Detail",
+              "pageName": "Property Detail",
+              "metadata": {
+                "title": "Property Detail | UrbanNest",
+                "description": "Property details, features, and nearby landmarks."
+              },
+              "breadcrumb": {
+                "title": "Property Detail",
+                "items": [
+                  {
+                    "name": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "name": "Property Detail",
+                    "href": "/properties"
+                  }
+                ]
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "PropertyDetailsSection",
+                  "component": "PropertyDetails"
+                }
+              ]
+            },
+            "clients": {
+              "title": "Our Clients",
+              "pageName": "Our Clients",
+              "metadata": {
+                "title": "Our Clients | UrbanNest",
+                "description": "Trusted by valued clients and leading brands."
+              },
+              "breadcrumb": {
+                "title": "Our Clients",
+                "items": [
+                  {
+                    "name": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "name": "Our Clients",
+                    "href": "/clients"
+                  }
+                ]
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "ClientsSection",
+                  "component": "Clients"
+                }
+              ]
+            },
+            "blog_details": {
+              "title": "Blog Detail",
+              "pageName": "Blog Detail",
+              "metadata": {
+                "title": "Blog Detail | UrbanNest",
+                "description": "Read the full article from UrbanNest."
+              },
+              "breadcrumb": {
+                "title": "Blog Detail",
+                "items": [
+                  {
+                    "name": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "name": "Blog Detail",
+                    "href": "/blog"
+                  }
+                ]
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "BlogDetailsSection",
+                  "component": "BlogDetails"
+                }
+              ]
+            }
+          },
+          "sections": {
+            "hero": {
+              "eyebrow": "FIND YOUR PERFECT HOME",
+              "title_line1": "Modern Homes For",
+              "title_highlight": "A Better Tomorrow",
+              "description": "Discover premium residential and commercial properties in the best locations with world-class amenities and modern living spaces.",
+              "image": "/img/banner.webp",
+              "features": [
+                {
+                  "icon": "Home",
+                  "label": "Prime Locations"
+                },
+                {
+                  "icon": "Award",
+                  "label": "Trusted Builders"
+                },
+                {
+                  "icon": "Users",
+                  "label": "Expert Guidance"
+                },
+                {
+                  "icon": "Shield",
+                  "label": "Best Investment"
+                }
+              ],
+              "primary_button": {
+                "text": "Explore Properties",
+                "href": "/properties"
+              },
+              "secondary_button": {
+                "text": "Get a Free Consultation",
+                "href": "/enquiry"
+              }
+            },
+            "about": {
+              "badge_value": "10+",
+              "badge_label": "YEARS OF EXPERIENCE",
+              "badge_note": "IN REAL ESTATE",
+              "title_line1": "Building Better",
+              "title_highlight": "Homes For Brighter Lives",
+              "description": "At UrbanNest Real Estate, we are committed to helping you find the perfect property that fits your lifestyle and future goals. With a deep understanding of the real estate market and a client-first approach, we make your property journey simple, transparent, and hassle-free.",
+              "description_secondary": "Whether you are looking to buy, sell, or invest, our experienced team provides expert guidance at every step, ensuring the best value and long-term satisfaction.",
+              "image": "/img/about.webp",
+              "button": {
+                "text": "Read More",
+                "href": "/about"
+              }
+            },
+            "mission": {
+              "subtitle": "OUR MISSION & VISION",
+              "title_line1": "Building a Better",
+              "title_highlight": "Tomorrow",
+              "description": "We are committed to creating sustainable communities and delivering exceptional value through innovative real estate solutions.",
+              "image": "/img/mission-vision.webp",
+              "image_caption": "Your Dream Our Priority",
+              "cards": [
+                {
+                  "eyebrow": "OUR",
+                  "title": "Mission",
+                  "icon": "Target",
+                  "description": "Our mission is to deliver high-quality residential and commercial properties that meet the evolving needs of our clients. We focus on transparency, integrity, and long-term relationships to build lasting value and trust."
+                },
+                {
+                  "eyebrow": "OUR",
+                  "title": "Vision",
+                  "icon": "Eye",
+                  "description": "Our vision is to be a leading real estate brand, recognized for excellence, innovation, and customer satisfaction. We aim to create vibrant communities and contribute to a better, more sustainable future."
+                }
+              ],
+              "highlights": [
+                {
+                  "title": "Trust & Transparency",
+                  "icon": "Shield"
+                },
+                {
+                  "title": "Quality Construction",
+                  "icon": "Home"
+                },
+                {
+                  "title": "Sustainable Communities",
+                  "icon": "Leaf"
+                },
+                {
+                  "title": "Customer Satisfaction",
+                  "icon": "Users"
+                }
+              ]
+            },
+            "why_choose": {
+              "subtitle": "WHY CHOOSE US",
+              "title_line1": "Your Trusted",
+              "title_highlight": "Real Estate Partner",
+              "description": "We are committed to providing the best property solutions with transparency, expertise, and personalized support, helping you make the right real estate decisions.",
+              "image": "/img/about.webp",
+              "items": [
+                {
+                  "title": "Wide Range of",
+                  "title_highlight": "Properties",
+                  "text": "From residential to commercial, we offer a diverse selection of properties to match your needs.",
+                  "icon": "Home"
+                },
+                {
+                  "title": "Trusted &",
+                  "title_highlight": "Transparent",
+                  "text": "We believe in honest dealings, clear communication, and complete transparency in every transaction.",
+                  "icon": "Handshake"
+                },
+                {
+                  "title": "Experienced",
+                  "title_highlight": "Team",
+                  "text": "Our real estate professionals bring years of market knowledge to guide you at every step.",
+                  "icon": "Users"
+                },
+                {
+                  "title": "Best Investment",
+                  "title_highlight": "Advice",
+                  "text": "Get expert guidance to make smart property investments with high long-term returns.",
+                  "icon": "LineChart"
+                },
+                {
+                  "title": "Prime",
+                  "title_highlight": "Locations",
+                  "text": "We help you find properties in the most sought-after and high-growth locations.",
+                  "icon": "MapPin"
+                },
+                {
+                  "title": "Legal",
+                  "title_highlight": "Assistance",
+                  "text": "We provide complete legal support and documentation help for a hassle-free property buying process.",
+                  "icon": "ShieldCheck"
+                },
+                {
+                  "title": "End-to-End",
+                  "title_highlight": "Support",
+                  "text": "From property search to possession, we are with you every step of the way.",
+                  "icon": "Settings"
+                },
+                {
+                  "title": "Customer-Centric",
+                  "title_highlight": "Approach",
+                  "text": "We focus on your unique needs and provide personalized solutions for a better experience.",
+                  "icon": "Headphones"
+                },
+                {
+                  "title": "Value for Your",
+                  "title_highlight": "Investment",
+                  "text": "Our goal is to deliver the best properties at the right value, ensuring long-term benefits.",
+                  "icon": "Gem"
+                }
+              ]
+            },
+            "properties": {
+              "subtitle": "OUR PROPERTIES",
+              "title_line1": "Featured",
+              "title_highlight": "Properties For You",
+              "description": "Discover premium properties in prime locations. Find your dream home, investment opportunity, or commercial space with the best amenities and modern living.",
+              "items": [
+                {
+                  "slug": "3-bhk-luxury-apartment",
+                  "title": "3 BHK Luxury Apartment",
+                  "location": "Gurgaon, Haryana",
+                  "price": "₹1.25 Cr",
+                  "price_note": "Onwards",
+                  "status": "For Sale",
+                  "beds": "3 Beds",
+                  "baths": "3 Baths",
+                  "area": "1650 Sq.Ft",
+                  "image": "/properties/1.webp",
+                  "description": "A bright three-bedroom apartment with a modular kitchen, reserved parking, and a clubhouse nearby."
+                },
+                {
+                  "slug": "4-bhk-independent-villa",
+                  "title": "4 BHK Independent Villa",
+                  "location": "Noida, Uttar Pradesh",
+                  "price": "₹2.80 Cr",
+                  "price_note": "Onwards",
+                  "status": "For Sale",
+                  "beds": "4 Beds",
+                  "baths": "4 Baths",
+                  "area": "3200 Sq.Ft",
+                  "image": "/properties/2.webp",
+                  "description": "A private villa with a garden, double-height living room, and a quiet residential street."
+                },
+                {
+                  "slug": "2-bhk-apartment",
+                  "title": "2 BHK Apartment",
+                  "location": "Delhi, India",
+                  "price": "₹45,000",
+                  "price_note": "/Month",
+                  "status": "For Rent",
+                  "beds": "2 Beds",
+                  "baths": "2 Baths",
+                  "area": "1100 Sq.Ft",
+                  "image": "/properties/3.webp",
+                  "description": "A furnished rental close to the metro, with a balcony and building security."
+                },
+                {
+                  "slug": "3-bhk-row-house",
+                  "title": "3 BHK Row House",
+                  "location": "Baner, Pune",
+                  "price": "₹96 Lakhs",
+                  "price_note": "Onwards",
+                  "status": "For Sale",
+                  "beds": "3 Beds",
+                  "baths": "3 Baths",
+                  "area": "1420 Sq.Ft",
+                  "image": "/properties/4.webp",
+                  "description": "A row house with a small front yard, two car parking, and a family neighbourhood."
+                },
+                {
+                  "slug": "commercial-office-space",
+                  "title": "Commercial Office Space",
+                  "location": "BKC, Mumbai",
+                  "price": "₹75 Lakhs",
+                  "price_note": "Onwards",
+                  "status": "For Sale",
+                  "beds": "Open Plan",
+                  "baths": "2 Baths",
+                  "area": "1100 Sq.Ft",
+                  "image": "/properties/5.webp",
+                  "description": "A ready office floor with meeting rooms, reception, and high-speed connectivity."
+                },
+                {
+                  "slug": "residential-plot",
+                  "title": "Residential Plot",
+                  "location": "Sarjapur, Bangalore",
+                  "price": "₹28 Lakh",
+                  "price_note": "Onwards",
+                  "status": "For Sale",
+                  "beds": "Plot",
+                  "baths": "Corner",
+                  "area": "1200 Sq.Ft",
+                  "image": "/properties/6.webp",
+                  "description": "A clear residential plot in an approved layout, ready for your own home plan."
+                }
+              ]
+            },
+            "stats": {
+              "subtitle": "OUR ACHIEVEMENT",
+              "title": "Our Achievement",
+              "items": [
+                {
+                  "value": "12+",
+                  "label": "Years Of Experience",
+                  "icon": "Users"
+                },
+                {
+                  "value": "167K+",
+                  "label": "Apartments sold",
+                  "icon": "Home"
+                },
+                {
+                  "value": "239+",
+                  "label": "Total Constructions",
+                  "icon": "Award"
+                },
+                {
+                  "value": "449+",
+                  "label": "Apartio Rooms",
+                  "icon": "FileText"
+                }
+              ]
+            },
+            "testimonials": {
+              "subtitle": "TESTIMONIALS",
+              "title_line1": "What Our",
+              "title_highlight": "Clients Say",
+              "description": "Real experiences from happy homeowners, investors, and businesses who have found their perfect property with us.",
+              "items": [
+                {
+                  "title": "Perfect service!",
+                  "text": "The team helped me find the perfect home within my budget. Their guidance, honesty, and professionalism made the entire process smooth and stress-free. Highly recommended for anyone looking to buy a property.",
+                  "name": "Amit Sharma",
+                  "role": "Homebuyer",
+                  "avatar": "/testimonail/amit.webp",
+                  "rating": 5
+                },
+                {
+                  "title": "A game changer for us!",
+                  "text": "We were looking for an investment property and the team provided excellent options with detailed market insights. Their support and expertise helped us make the right decision. Truly a game changer for our investment journey.",
+                  "name": "Bhargava Rao",
+                  "role": "Property Investor",
+                  "avatar": "/testimonail/bhargava.webp",
+                  "rating": 5
+                },
+                {
+                  "title": "Highly professional team!",
+                  "text": "From property selection to documentation, everything was handled with great care and transparency. The team was always available to answer our questions and made the entire selling process easy and hassle-free.",
+                  "name": "Rohit Mehta",
+                  "role": "Property Seller",
+                  "avatar": "/testimonail/rohit.webp",
+                  "rating": 5
+                }
+              ]
+            },
+            "blogs": {
+              "subtitle": "OUR BLOG",
+              "title_line1": "Latest Insights &",
+              "title_highlight": "Real Estate",
+              "description": "Stay informed with expert advice, market trends, property tips and the latest news from the real estate industry to help you make better property decisions.",
+              "button": {
+                "text": "View All Blogs",
+                "href": "/blog"
+              },
+              "items": [
+                {
+                  "slug": "tips-for-buying-your-first-home",
+                  "title": "Top 7 Tips for Buying Your First Home in 2026",
+                  "excerpt": "Buying your first home is a big step. Here are expert tips to help you make the right decision with confidence and ease.",
+                  "image": "/blog/1.webp",
+                  "date": "Aug 27, 2026",
+                  "author": "Admin",
+                  "category": "REAL ESTATE"
+                },
+                {
+                  "slug": "investing-in-property",
+                  "title": "Renting vs Buying: Which is Right for You?",
+                  "excerpt": "Confused between renting and buying a property? We break down the pros and cons to help you choose the best option.",
+                  "image": "/blog/2.webp",
+                  "date": "Aug 27, 2026",
+                  "author": "Admin",
+                  "category": "PROPERTY TIPS"
+                },
+                {
+                  "slug": "real-estate-trends",
+                  "title": "Real Estate Trends to Watch in 2026",
+                  "excerpt": "Discover the latest real estate trends, emerging opportunities and what to expect in the property market this year.",
+                  "image": "/blog/1.webp",
+                  "date": "Aug 27, 2026",
+                  "author": "Admin",
+                  "category": "MARKET TRENDS"
+                },
+                {
+                  "slug": "home-loan-checklist",
+                  "title": "Home Loan Checklist Before You Apply",
+                  "excerpt": "A short list of papers, costs, and questions to settle before you sign a home loan.",
+                  "image": "/blog/4.webp",
+                  "date": "Sep 02, 2026",
+                  "author": "Admin",
+                  "category": "REAL ESTATE"
+                },
+                {
+                  "slug": "choosing-the-right-location",
+                  "title": "How to Choose the Right Location",
+                  "excerpt": "Schools, roads, and daily travel matter as much as the floor plan. Here is how to judge a location.",
+                  "image": "/blog/5.webp",
+                  "date": "Sep 04, 2026",
+                  "author": "Admin",
+                  "category": "PROPERTY TIPS"
+                },
+                {
+                  "slug": "ready-vs-under-construction",
+                  "title": "Ready Home or Under Construction",
+                  "excerpt": "Both options can work. The better choice depends on your timeline and how soon you need to move.",
+                  "image": "/blog/6.webp",
+                  "date": "Sep 08, 2026",
+                  "author": "Admin",
+                  "category": "MARKET TRENDS"
+                }
+              ]
+            },
+            "cta": {
+              "eyebrow": "LET'S FIND YOUR",
+              "title_line1": "Dream Property",
+              "title_highlight": "Together",
+              "description": "Get expert guidance and personalized support from our real estate professionals.",
+              "button": {
+                "text": "Contact Us",
+                "href": "/contact"
+              },
+              "image": "/img/banner.webp"
+            },
+            "team": {
+              "subtitle": "OUR TEAM",
+              "title_line1": "Our Team",
+              "title_highlight": "",
+              "description": "Meet our experienced and dedicated professionals who work together to help you find the perfect property and investment opportunities.",
+              "members": [
+                {
+                  "name": "Rahul Sharma",
+                  "role": "Founder & CEO",
+                  "bio": "With over 15 years of experience in real estate, Rahul leads our team with a vision to turn trusted property solutions.",
+                  "image": "/team/1.webp",
+                  "href": "/contact",
+                  "socials": [
+                    {
+                      "name": "Facebook",
+                      "href": "https://www.facebook.com"
+                    },
+                    {
+                      "name": "Instagram",
+                      "href": "https://www.instagram.com"
+                    },
+                    {
+                      "name": "Linkedin",
+                      "href": "https://www.linkedin.com"
+                    }
+                  ]
+                },
+                {
+                  "name": "Priya Mehta",
+                  "role": "Sales Manager",
+                  "bio": "Priya specializes in residential and commercial sales, helping clients find the best property to fit their needs.",
+                  "image": "/team/2.webp",
+                  "href": "/contact",
+                  "socials": [
+                    {
+                      "name": "Facebook",
+                      "href": "https://www.facebook.com"
+                    },
+                    {
+                      "name": "Instagram",
+                      "href": "https://www.instagram.com"
+                    },
+                    {
+                      "name": "Linkedin",
+                      "href": "https://www.linkedin.com"
+                    }
+                  ]
+                },
+                {
+                  "name": "Amit Verma",
+                  "role": "Property Consultant",
+                  "bio": "Amit provides expert advice and market insights to help clients make informed investment decisions.",
+                  "image": "/team/3.webp",
+                  "href": "/contact",
+                  "socials": [
+                    {
+                      "name": "Facebook",
+                      "href": "https://www.facebook.com"
+                    },
+                    {
+                      "name": "Instagram",
+                      "href": "https://www.instagram.com"
+                    },
+                    {
+                      "name": "Linkedin",
+                      "href": "https://www.linkedin.com"
+                    }
+                  ]
+                },
+                {
+                  "name": "Neha Kapoor",
+                  "role": "Client Relationship Manager",
+                  "bio": "Neha ensures a seamless and hassle-free experience for every client with personalized support and guidance.",
+                  "image": "/team/4.webp",
+                  "href": "/contact",
+                  "socials": [
+                    {
+                      "name": "Facebook",
+                      "href": "https://www.facebook.com"
+                    },
+                    {
+                      "name": "Instagram",
+                      "href": "https://www.instagram.com"
+                    },
+                    {
+                      "name": "Linkedin",
+                      "href": "https://www.linkedin.com"
+                    }
+                  ]
+                },
+                {
+                  "name": "Vikram Singh",
+                  "role": "Marketing Head",
+                  "bio": "Vikram leads our marketing strategies to connect buyers and sellers with the best property opportunities.",
+                  "image": "/team/5.webp",
+                  "href": "/contact",
+                  "socials": [
+                    {
+                      "name": "Facebook",
+                      "href": "https://www.facebook.com"
+                    },
+                    {
+                      "name": "Instagram",
+                      "href": "https://www.instagram.com"
+                    },
+                    {
+                      "name": "Linkedin",
+                      "href": "https://www.linkedin.com"
+                    }
+                  ]
+                },
+                {
+                  "name": "Kavita Rao",
+                  "role": "Property Advisor",
+                  "bio": "Kavita assists clients in discovering ideal properties and provides end-to-end support throughout the buying process.",
+                  "image": "/team/6.webp",
+                  "href": "/contact",
+                  "socials": [
+                    {
+                      "name": "Facebook",
+                      "href": "https://www.facebook.com"
+                    },
+                    {
+                      "name": "Instagram",
+                      "href": "https://www.instagram.com"
+                    },
+                    {
+                      "name": "Linkedin",
+                      "href": "https://www.linkedin.com"
+                    }
+                  ]
+                },
+                {
+                  "name": "Arjun Malhotra",
+                  "role": "Investment Consultant",
+                  "bio": "Arjun helps clients identify high-potential investment opportunities in residential and commercial segments.",
+                  "image": "/team/1.webp",
+                  "href": "/contact",
+                  "socials": [
+                    {
+                      "name": "Facebook",
+                      "href": "https://www.facebook.com"
+                    },
+                    {
+                      "name": "Instagram",
+                      "href": "https://www.instagram.com"
+                    },
+                    {
+                      "name": "Linkedin",
+                      "href": "https://www.linkedin.com"
+                    }
+                  ]
+                },
+                {
+                  "name": "Sneha Joshi",
+                  "role": "Legal Advisor",
+                  "bio": "Sneha ensures smooth and secure property transactions with complete legal assistance for our clients.",
+                  "image": "/team/2.webp",
+                  "href": "/contact",
+                  "socials": [
+                    {
+                      "name": "Facebook",
+                      "href": "https://www.facebook.com"
+                    },
+                    {
+                      "name": "Instagram",
+                      "href": "https://www.instagram.com"
+                    },
+                    {
+                      "name": "Linkedin",
+                      "href": "https://www.linkedin.com"
+                    }
+                  ]
+                },
+                {
+                  "name": "Rohit Bansal",
+                  "role": "Project Manager",
+                  "bio": "Rohit oversees property listings and manages timely delivery with the highest quality standards.",
+                  "image": "/team/3.webp",
+                  "href": "/contact",
+                  "socials": [
+                    {
+                      "name": "Facebook",
+                      "href": "https://www.facebook.com"
+                    },
+                    {
+                      "name": "Instagram",
+                      "href": "https://www.instagram.com"
+                    },
+                    {
+                      "name": "Linkedin",
+                      "href": "https://www.linkedin.com"
+                    }
+                  ]
+                },
+                {
+                  "name": "Ananya Gupta",
+                  "role": "Design Consultant",
+                  "bio": "Ananya helps clients create beautiful and functional spaces that match their lifestyle and vision.",
+                  "image": "/team/4.webp",
+                  "href": "/contact",
+                  "socials": [
+                    {
+                      "name": "Facebook",
+                      "href": "https://www.facebook.com"
+                    },
+                    {
+                      "name": "Instagram",
+                      "href": "https://www.instagram.com"
+                    },
+                    {
+                      "name": "Linkedin",
+                      "href": "https://www.linkedin.com"
+                    }
+                  ]
+                },
+                {
+                  "name": "Karan Mehta",
+                  "role": "Sales Executive",
+                  "bio": "Karan ensures our clients receive quick assistance and smooth communication for every property inquiry.",
+                  "image": "/team/5.webp",
+                  "href": "/contact",
+                  "socials": [
+                    {
+                      "name": "Facebook",
+                      "href": "https://www.facebook.com"
+                    },
+                    {
+                      "name": "Instagram",
+                      "href": "https://www.instagram.com"
+                    },
+                    {
+                      "name": "Linkedin",
+                      "href": "https://www.linkedin.com"
+                    }
+                  ]
+                },
+                {
+                  "name": "Pooja Nair",
+                  "role": "Business Development",
+                  "bio": "Pooja focuses on building strong partnerships and exploring new opportunities to grow our property network.",
+                  "image": "/team/6.webp",
+                  "href": "/contact",
+                  "socials": [
+                    {
+                      "name": "Facebook",
+                      "href": "https://www.facebook.com"
+                    },
+                    {
+                      "name": "Instagram",
+                      "href": "https://www.instagram.com"
+                    },
+                    {
+                      "name": "Linkedin",
+                      "href": "https://www.linkedin.com"
+                    }
+                  ]
+                }
+              ]
+            },
+            "gallery": {
+              "subtitle": "GALLERY",
+              "title_line1": "Our",
+              "title_highlight": "Gallery",
+              "description": "Take a look at our beautiful properties, modern interiors and premium amenities through our gallery.",
+              "filters": [
+                "All",
+                "Interior View",
+                "Exterior View",
+                "Amenities",
+                "Construction",
+                "Video"
+              ],
+              "per_page": 9,
+              "images": [
+                {
+                  "src": "/gallery/10.webp",
+                  "alt": "Building exterior",
+                  "category": "Exterior View",
+                  "type": "image"
+                },
+                {
+                  "src": "/gallery/2.webp",
+                  "alt": "Living room",
+                  "category": "Interior View",
+                  "type": "image"
+                },
+                {
+                  "src": "/gallery/3.webp",
+                  "alt": "Pool",
+                  "category": "Amenities",
+                  "type": "image"
+                },
+                {
+                  "src": "/gallery/4.webp",
+                  "alt": "Bedroom",
+                  "category": "Construction",
+                  "type": "image"
+                },
+                {
+                  "src": "/gallery/5.webp",
+                  "alt": "Gym",
+                  "category": "Interior View",
+                  "type": "image"
+                },
+                {
+                  "src": "/gallery/6.webp",
+                  "alt": "Garden",
+                  "category": "Amenities",
+                  "type": "image"
+                },
+                {
+                  "src": "/gallery/7.webp",
+                  "alt": "Play area",
+                  "category": "Interior View",
+                  "type": "image"
+                },
+                {
+                  "src": "/gallery/8.webp",
+                  "alt": "Lobby",
+                  "category": "Exterior View",
+                  "type": "image"
+                },
+                {
+                  "src": "/gallery/9.webp",
+                  "alt": "Parking",
+                  "category": "Construction",
+                  "type": "image"
+                },
+                {
+                  "src": "/gallery/video/1.webp",
+                  "video": "/gallery/video/1.mp4",
+                  "alt": "Property walkthrough",
+                  "category": "Video",
+                  "type": "video"
+                },
+                {
+                  "src": "/gallery/video/1.webp",
+                  "video": "/gallery/video/2.mp4",
+                  "alt": "Project film",
+                  "category": "Video",
+                  "type": "video"
+                }
+              ]
+            },
+            "contact": {
+              "subtitle": "CONTACT US",
+              "title_line1": "Get In Touch",
+              "title_highlight": "",
+              "description": "We would love to hear from you. Whether you have a question, want to schedule a site visit, or need more information about our properties, our team is here to help.",
+              "office_title": "Our Office",
+              "office_text": "Visit our office or reach out to us through phone or email. We are always ready to assist you.",
+              "image": "/properties/1.webp",
+              "address_label": "Address",
+              "address": "123 Education Lane, New York, NY 10001",
+              "phone_label": "Phone Numbers",
+              "phone": "+100000000000",
+              "phone_secondary": "+100000000000",
+              "email_label": "Email",
+              "email": "info@xyz.com",
+              "hours_label": "Working Hours",
+              "hours": "Mon - Sat: 9:00 AM - 7:00 PM",
+              "hours_secondary": "Sunday: 10:00 AM - 5:00 PM",
+              "form_title": "Send Us a Message",
+              "form_text": "Fill out the form below and our team will get back to you as soon as possible.",
+              "name_placeholder": "Full Name *",
+              "email_placeholder": "Email Address *",
+              "phone_placeholder": "Phone Number *",
+              "subject_placeholder": "Subject *",
+              "message_placeholder": "Message *",
+              "button_text": "Send Message",
+              "map_embed": "https://maps.google.com/maps?q=123%20Education%20Lane%2C%20New%20York%2C%20NY%2010001&z=14&output=embed",
+              "success_message": "Thanks. We have received your message."
+            },
+            "enquiry": {
+              "subtitle": "PROPERTY ENQUIRY",
+              "title": "Enquire About This Property",
+              "description": "Share your details and our team will help you with the best options.",
+              "name_placeholder": "Full Name *",
+              "phone_placeholder": "Phone Number *",
+              "email_placeholder": "Email Address *",
+              "looking_label": "I am looking for",
+              "looking_options": [
+                "Apartment",
+                "Villa",
+                "Row House",
+                "Office",
+                "Plot"
+              ],
+              "location_placeholder": "Preferred Location",
+              "budget_label": "Budget Range",
+              "budget_options": [
+                "Under 50 Lakh",
+                "50 Lakh - 1 Cr",
+                "1 Cr - 2 Cr",
+                "Above 2 Cr"
+              ],
+              "timeline_label": "When are you planning to buy?",
+              "timeline_options": [
+                "Immediately",
+                "Within 3 months",
+                "Within 6 months",
+                "Just exploring"
+              ],
+              "message_placeholder": "Your Message (Optional)",
+              "message_limit": 500,
+              "button_text": "Send Enquiry",
+              "privacy": "Your information is safe with us. We respect your privacy.",
+              "reasons_title": "Why Enquire With Us?",
+              "reasons": [
+                {
+                  "icon": "BadgePercent",
+                  "label": "Get Best Price & Offers"
+                },
+                {
+                  "icon": "FileText",
+                  "label": "Detailed Project Information"
+                },
+                {
+                  "icon": "MapPin",
+                  "label": "Site Visit Assistance"
+                },
+                {
+                  "icon": "Home",
+                  "label": "Home Loan Support"
+                },
+                {
+                  "icon": "Headphones",
+                  "label": "End-to-End Guidance"
+                }
+              ]
+            },
+            "thank_you": {
+              "title": "Thank You",
+              "description": "Your enquiry is with the UrbanNest team. We will contact you shortly.",
+              "button": {
+                "text": "Back to Home",
+                "href": "/"
+              }
+            },
+            "property_details": {
+              "items": [
+                {
+                  "slug": "3-bhk-luxury-apartment",
+                  "title": "3 BHK Luxury Apartment",
+                  "location": "Gurgaon, Haryana",
+                  "price": "₹1.25 Cr",
+                  "price_note": "Onwards",
+                  "status": "For Sale",
+                  "beds": "3 Beds",
+                  "baths": "3 Baths",
+                  "area": "1650 Sq.Ft",
+                  "image": "/properties/1.webp",
+                  "description": "A bright three-bedroom apartment with a modular kitchen, reserved parking, and a clubhouse nearby.",
+                  "year": "2024",
+                  "parking": "2 Parking",
+                  "gallery": [
+                    "/properties/1.webp",
+                    "/properties/2.webp",
+                    "/properties/3.webp",
+                    "/properties/4.webp",
+                    "/properties/5.webp"
+                  ],
+                  "overview": "Experience modern living in this spacious 3 BHK apartment located in the prime area of Gurgaon, Haryana. Designed for comfort and convenience, this home offers a perfect blend of contemporary architecture and premium amenities, with excellent connectivity, green surroundings, and top-class facilities.",
+                  "features": [
+                    "Spacious 3 Bedrooms with Attach Bathrooms",
+                    "Large Living & Dining Area",
+                    "Modular Kitchen with Premium Fittings",
+                    "Balcony with Open View",
+                    "High-Quality Construction",
+                    "Excellent Natural Light & Ventilation",
+                    "Easy Access to Schools, Hospitals & Malls",
+                    "24/7 Security & Power Backup",
+                    "Covered Parking for 2 Vehicles",
+                    "Gated Community with Modern Amenities"
+                  ],
+                  "specs": [
+                    {
+                      "label": "Property Type",
+                      "value": "Apartment"
+                    },
+                    {
+                      "label": "Project Name",
+                      "value": "UrbanNest Heights"
+                    },
+                    {
+                      "label": "Possession Status",
+                      "value": "Ready to Move"
+                    },
+                    {
+                      "label": "Furnishing",
+                      "value": "Semi-Furnished"
+                    },
+                    {
+                      "label": "Construction Status",
+                      "value": "Completed"
+                    },
+                    {
+                      "label": "RERA ID",
+                      "value": "UPRERA123456"
+                    },
+                    {
+                      "label": "Facing",
+                      "value": "East Facing"
+                    },
+                    {
+                      "label": "Age of Property",
+                      "value": "1-3 Years"
+                    },
+                    {
+                      "label": "Total Floors",
+                      "value": "20 Floors"
+                    },
+                    {
+                      "label": "Tower",
+                      "value": "Tower A"
+                    },
+                    {
+                      "label": "Availability",
+                      "value": "Immediate"
+                    }
+                  ],
+                  "amenities": [
+                    {
+                      "label": "Club House",
+                      "icon": "Building2"
+                    },
+                    {
+                      "label": "Swimming Pool",
+                      "icon": "Waves"
+                    },
+                    {
+                      "label": "Gymnasium",
+                      "icon": "Dumbbell"
+                    },
+                    {
+                      "label": "Lush Green Area",
+                      "icon": "Trees"
+                    },
+                    {
+                      "label": "Children Play Area",
+                      "icon": "Baby"
+                    },
+                    {
+                      "label": "24/7 Security",
+                      "icon": "Shield"
+                    }
+                  ],
+                  "floor_plan": "/properties/1.webp",
+                  "advantages": [
+                    "2 mins to Metro Station",
+                    "5 mins to Major Schools",
+                    "10 mins to Hospitals",
+                    "5 mins to Shopping Malls",
+                    "Easy Access to Expressway",
+                    "Well Connected to Delhi & Greater Noida"
+                  ],
+                  "landmarks_image": "/properties/2.webp",
+                  "landmarks": [
+                    {
+                      "name": "Noida City Center",
+                      "distance": "4.1 km"
+                    },
+                    {
+                      "name": "Fortis Hospital",
+                      "distance": "3.5 km"
+                    },
+                    {
+                      "name": "DLF Mall",
+                      "distance": "4.2 km"
+                    },
+                    {
+                      "name": "Logix Mall",
+                      "distance": "3.6 km"
+                    },
+                    {
+                      "name": "Noida Expressway",
+                      "distance": "2.8 km"
+                    }
+                  ]
+                },
+                {
+                  "slug": "4-bhk-independent-villa",
+                  "title": "4 BHK Independent Villa",
+                  "location": "Noida, Uttar Pradesh",
+                  "price": "₹2.80 Cr",
+                  "price_note": "Onwards",
+                  "status": "For Sale",
+                  "beds": "4 Beds",
+                  "baths": "4 Baths",
+                  "area": "3200 Sq.Ft",
+                  "image": "/properties/2.webp",
+                  "description": "A private villa with a garden, double-height living room, and a quiet residential street.",
+                  "year": "2023",
+                  "parking": "3 Parking",
+                  "gallery": [
+                    "/properties/2.webp",
+                    "/properties/1.webp",
+                    "/properties/4.webp",
+                    "/properties/6.webp",
+                    "/properties/3.webp"
+                  ],
+                  "overview": "A private 4 BHK villa in Noida with a garden, double-height living room, and a quiet residential street. Built for families who want space, privacy, and a ready-to-move home.",
+                  "features": [
+                    "4 Bedrooms with Attach Bathrooms",
+                    "Private Garden",
+                    "Double-Height Living Room",
+                    "Modular Kitchen",
+                    "Servant Room",
+                    "Covered Parking for 3 Cars",
+                    "Power Backup",
+                    "Gated Lane",
+                    "High-Quality Construction",
+                    "Close to Schools"
+                  ],
+                  "specs": [
+                    {
+                      "label": "Property Type",
+                      "value": "Villa"
+                    },
+                    {
+                      "label": "Project Name",
+                      "value": "UrbanNest Greens"
+                    },
+                    {
+                      "label": "Possession Status",
+                      "value": "Ready to Move"
+                    },
+                    {
+                      "label": "Furnishing",
+                      "value": "Unfurnished"
+                    },
+                    {
+                      "label": "Construction Status",
+                      "value": "Completed"
+                    },
+                    {
+                      "label": "RERA ID",
+                      "value": "UPRERA778812"
+                    },
+                    {
+                      "label": "Facing",
+                      "value": "North Facing"
+                    },
+                    {
+                      "label": "Age of Property",
+                      "value": "1-3 Years"
+                    },
+                    {
+                      "label": "Total Floors",
+                      "value": "3 Floors"
+                    },
+                    {
+                      "label": "Tower",
+                      "value": "Independent"
+                    },
+                    {
+                      "label": "Availability",
+                      "value": "Immediate"
+                    }
+                  ],
+                  "amenities": [
+                    {
+                      "label": "Private Garden",
+                      "icon": "Trees"
+                    },
+                    {
+                      "label": "Club Access",
+                      "icon": "Building2"
+                    },
+                    {
+                      "label": "Gymnasium",
+                      "icon": "Dumbbell"
+                    },
+                    {
+                      "label": "Kids Play",
+                      "icon": "Baby"
+                    },
+                    {
+                      "label": "Power Backup",
+                      "icon": "Zap"
+                    },
+                    {
+                      "label": "24/7 Security",
+                      "icon": "Shield"
+                    }
+                  ],
+                  "floor_plan": "/properties/2.webp",
+                  "advantages": [
+                    "8 mins to Sector 18",
+                    "6 mins to Schools",
+                    "12 mins to Hospital",
+                    "7 mins to Mall",
+                    "Direct access to main road",
+                    "Near Noida Expressway"
+                  ],
+                  "landmarks_image": "/properties/3.webp",
+                  "landmarks": [
+                    {
+                      "name": "Sector 18 Market",
+                      "distance": "3.2 km"
+                    },
+                    {
+                      "name": "Jaypee Hospital",
+                      "distance": "5.1 km"
+                    },
+                    {
+                      "name": "DLF Mall of India",
+                      "distance": "6.4 km"
+                    },
+                    {
+                      "name": "Metro Station",
+                      "distance": "2.2 km"
+                    },
+                    {
+                      "name": "Film City",
+                      "distance": "4.8 km"
+                    }
+                  ]
+                },
+                {
+                  "slug": "2-bhk-apartment",
+                  "title": "2 BHK Apartment",
+                  "location": "Delhi, India",
+                  "price": "₹45,000",
+                  "price_note": "/Month",
+                  "status": "For Rent",
+                  "beds": "2 Beds",
+                  "baths": "2 Baths",
+                  "area": "1100 Sq.Ft",
+                  "image": "/properties/3.webp",
+                  "description": "A furnished rental close to the metro, with a balcony and building security.",
+                  "year": "2022",
+                  "parking": "1 Parking",
+                  "gallery": [
+                    "/properties/3.webp",
+                    "/properties/1.webp",
+                    "/properties/5.webp",
+                    "/properties/2.webp",
+                    "/properties/4.webp"
+                  ],
+                  "overview": "A furnished 2 BHK rental in Delhi, close to the metro, with a balcony and building security. Suited for a small family or working professionals.",
+                  "features": [
+                    "2 Bedrooms",
+                    "Furnished Living Room",
+                    "Modular Kitchen",
+                    "Balcony",
+                    "Lift Access",
+                    "Building Security",
+                    "Reserved Parking",
+                    "Power Backup",
+                    "Near Metro",
+                    "Water Supply 24 Hours"
+                  ],
+                  "specs": [
+                    {
+                      "label": "Property Type",
+                      "value": "Apartment"
+                    },
+                    {
+                      "label": "Project Name",
+                      "value": "UrbanNest Residency"
+                    },
+                    {
+                      "label": "Possession Status",
+                      "value": "Ready to Move"
+                    },
+                    {
+                      "label": "Furnishing",
+                      "value": "Furnished"
+                    },
+                    {
+                      "label": "Construction Status",
+                      "value": "Completed"
+                    },
+                    {
+                      "label": "RERA ID",
+                      "value": "DLRERA445521"
+                    },
+                    {
+                      "label": "Facing",
+                      "value": "West Facing"
+                    },
+                    {
+                      "label": "Age of Property",
+                      "value": "3-5 Years"
+                    },
+                    {
+                      "label": "Total Floors",
+                      "value": "12 Floors"
+                    },
+                    {
+                      "label": "Tower",
+                      "value": "Tower B"
+                    },
+                    {
+                      "label": "Availability",
+                      "value": "Immediate"
+                    }
+                  ],
+                  "amenities": [
+                    {
+                      "label": "Lift",
+                      "icon": "ArrowUp"
+                    },
+                    {
+                      "label": "Security",
+                      "icon": "Shield"
+                    },
+                    {
+                      "label": "Power Backup",
+                      "icon": "Zap"
+                    },
+                    {
+                      "label": "Park",
+                      "icon": "Trees"
+                    },
+                    {
+                      "label": "Visitor Parking",
+                      "icon": "Car"
+                    },
+                    {
+                      "label": "CCTV",
+                      "icon": "Camera"
+                    }
+                  ],
+                  "floor_plan": "/properties/3.webp",
+                  "advantages": [
+                    "4 mins to Metro",
+                    "8 mins to Market",
+                    "10 mins to Hospital",
+                    "6 mins to School",
+                    "Main road access",
+                    "Near office hub"
+                  ],
+                  "landmarks_image": "/properties/5.webp",
+                  "landmarks": [
+                    {
+                      "name": "Metro Station",
+                      "distance": "0.8 km"
+                    },
+                    {
+                      "name": "Local Market",
+                      "distance": "1.2 km"
+                    },
+                    {
+                      "name": "City Hospital",
+                      "distance": "2.4 km"
+                    },
+                    {
+                      "name": "Public School",
+                      "distance": "1.6 km"
+                    },
+                    {
+                      "name": "Bus Stop",
+                      "distance": "0.4 km"
+                    }
+                  ]
+                },
+                {
+                  "slug": "3-bhk-row-house",
+                  "title": "3 BHK Row House",
+                  "location": "Baner, Pune",
+                  "price": "₹96 Lakhs",
+                  "price_note": "Onwards",
+                  "status": "For Sale",
+                  "beds": "3 Beds",
+                  "baths": "3 Baths",
+                  "area": "1420 Sq.Ft",
+                  "image": "/properties/4.webp",
+                  "description": "A row house with a small front yard, two car parking, and a family neighbourhood.",
+                  "year": "2021",
+                  "parking": "2 Parking",
+                  "gallery": [
+                    "/properties/4.webp",
+                    "/properties/6.webp",
+                    "/properties/2.webp",
+                    "/properties/1.webp",
+                    "/properties/3.webp"
+                  ],
+                  "overview": "A 3 BHK row house in Baner, Pune with a small front yard, two car parking, and a family neighbourhood. A practical home with room to grow.",
+                  "features": [
+                    "3 Bedrooms",
+                    "Front Yard",
+                    "Two Car Parking",
+                    "Open Kitchen",
+                    "Terrace",
+                    "Family Neighbourhood",
+                    "Good Ventilation",
+                    "Near Baner Road",
+                    "Storage Room",
+                    "24/7 Water"
+                  ],
+                  "specs": [
+                    {
+                      "label": "Property Type",
+                      "value": "Row House"
+                    },
+                    {
+                      "label": "Project Name",
+                      "value": "UrbanNest Baner"
+                    },
+                    {
+                      "label": "Possession Status",
+                      "value": "Ready to Move"
+                    },
+                    {
+                      "label": "Furnishing",
+                      "value": "Semi-Furnished"
+                    },
+                    {
+                      "label": "Construction Status",
+                      "value": "Completed"
+                    },
+                    {
+                      "label": "RERA ID",
+                      "value": "PMRERA909012"
+                    },
+                    {
+                      "label": "Facing",
+                      "value": "East Facing"
+                    },
+                    {
+                      "label": "Age of Property",
+                      "value": "3-5 Years"
+                    },
+                    {
+                      "label": "Total Floors",
+                      "value": "2 Floors"
+                    },
+                    {
+                      "label": "Tower",
+                      "value": "Row 4"
+                    },
+                    {
+                      "label": "Availability",
+                      "value": "Immediate"
+                    }
+                  ],
+                  "amenities": [
+                    {
+                      "label": "Front Yard",
+                      "icon": "Trees"
+                    },
+                    {
+                      "label": "Terrace",
+                      "icon": "Sun"
+                    },
+                    {
+                      "label": "Parking",
+                      "icon": "Car"
+                    },
+                    {
+                      "label": "Security",
+                      "icon": "Shield"
+                    },
+                    {
+                      "label": "Kids Area",
+                      "icon": "Baby"
+                    },
+                    {
+                      "label": "Power Backup",
+                      "icon": "Zap"
+                    }
+                  ],
+                  "floor_plan": "/properties/4.webp",
+                  "advantages": [
+                    "5 mins to Baner Road",
+                    "7 mins to Schools",
+                    "9 mins to Hospital",
+                    "6 mins to Mall",
+                    "Near IT parks",
+                    "Quiet internal road"
+                  ],
+                  "landmarks_image": "/properties/6.webp",
+                  "landmarks": [
+                    {
+                      "name": "Baner Road",
+                      "distance": "1.1 km"
+                    },
+                    {
+                      "name": "Orchid School",
+                      "distance": "2.0 km"
+                    },
+                    {
+                      "name": "Columbia Hospital",
+                      "distance": "3.4 km"
+                    },
+                    {
+                      "name": "Westend Mall",
+                      "distance": "4.1 km"
+                    },
+                    {
+                      "name": "Balewadi Stadium",
+                      "distance": "3.8 km"
+                    }
+                  ]
+                },
+                {
+                  "slug": "commercial-office-space",
+                  "title": "Commercial Office Space",
+                  "location": "BKC, Mumbai",
+                  "price": "₹75 Lakhs",
+                  "price_note": "Onwards",
+                  "status": "For Sale",
+                  "beds": "Open Plan",
+                  "baths": "2 Baths",
+                  "area": "1100 Sq.Ft",
+                  "image": "/properties/5.webp",
+                  "description": "A ready office floor with meeting rooms, reception, and high-speed connectivity.",
+                  "year": "2020",
+                  "parking": "4 Parking",
+                  "gallery": [
+                    "/properties/5.webp",
+                    "/properties/3.webp",
+                    "/properties/1.webp",
+                    "/properties/2.webp",
+                    "/properties/4.webp"
+                  ],
+                  "overview": "A ready office floor in BKC, Mumbai with meeting rooms, reception, and high-speed connectivity. Built for a team that needs a central business address.",
+                  "features": [
+                    "Open Plan Floor",
+                    "Meeting Rooms",
+                    "Reception",
+                    "High-Speed Connectivity",
+                    "Central AC",
+                    "4 Parking Slots",
+                    "Lift Access",
+                    "24/7 Security",
+                    "Pantry",
+                    "Main Road Frontage"
+                  ],
+                  "specs": [
+                    {
+                      "label": "Property Type",
+                      "value": "Office"
+                    },
+                    {
+                      "label": "Project Name",
+                      "value": "UrbanNest BKC"
+                    },
+                    {
+                      "label": "Possession Status",
+                      "value": "Ready to Move"
+                    },
+                    {
+                      "label": "Furnishing",
+                      "value": "Semi-Furnished"
+                    },
+                    {
+                      "label": "Construction Status",
+                      "value": "Completed"
+                    },
+                    {
+                      "label": "RERA ID",
+                      "value": "MAHARERA556677"
+                    },
+                    {
+                      "label": "Facing",
+                      "value": "South Facing"
+                    },
+                    {
+                      "label": "Age of Property",
+                      "value": "5+ Years"
+                    },
+                    {
+                      "label": "Total Floors",
+                      "value": "18 Floors"
+                    },
+                    {
+                      "label": "Tower",
+                      "value": "Wing C"
+                    },
+                    {
+                      "label": "Availability",
+                      "value": "Immediate"
+                    }
+                  ],
+                  "amenities": [
+                    {
+                      "label": "Meeting Rooms",
+                      "icon": "Users"
+                    },
+                    {
+                      "label": "Pantry",
+                      "icon": "Coffee"
+                    },
+                    {
+                      "label": "Lift",
+                      "icon": "ArrowUp"
+                    },
+                    {
+                      "label": "Security",
+                      "icon": "Shield"
+                    },
+                    {
+                      "label": "Parking",
+                      "icon": "Car"
+                    },
+                    {
+                      "label": "Power Backup",
+                      "icon": "Zap"
+                    }
+                  ],
+                  "floor_plan": "/properties/5.webp",
+                  "advantages": [
+                    "In BKC business district",
+                    "2 mins to Highway",
+                    "8 mins to Station",
+                    "Near hotels",
+                    "Close to banks",
+                    "Metro connectivity"
+                  ],
+                  "landmarks_image": "/properties/1.webp",
+                  "landmarks": [
+                    {
+                      "name": "BKC Station",
+                      "distance": "1.4 km"
+                    },
+                    {
+                      "name": "MMRDA Grounds",
+                      "distance": "0.9 km"
+                    },
+                    {
+                      "name": "Trident Hotel",
+                      "distance": "1.8 km"
+                    },
+                    {
+                      "name": "Highway",
+                      "distance": "0.6 km"
+                    },
+                    {
+                      "name": "Airport",
+                      "distance": "8.5 km"
+                    }
+                  ]
+                },
+                {
+                  "slug": "residential-plot",
+                  "title": "Residential Plot",
+                  "location": "Sarjapur, Bangalore",
+                  "price": "₹28 Lakh",
+                  "price_note": "Onwards",
+                  "status": "For Sale",
+                  "beds": "Plot",
+                  "baths": "Corner",
+                  "area": "1200 Sq.Ft",
+                  "image": "/properties/6.webp",
+                  "description": "A clear residential plot in an approved layout, ready for your own home plan.",
+                  "year": "2025",
+                  "parking": "Open",
+                  "gallery": [
+                    "/properties/6.webp",
+                    "/properties/4.webp",
+                    "/properties/2.webp",
+                    "/properties/1.webp",
+                    "/properties/3.webp"
+                  ],
+                  "overview": "A clear residential plot in an approved layout at Sarjapur, Bangalore. Ready for your own home plan, with a corner advantage and wide approach road.",
+                  "features": [
+                    "Corner Plot",
+                    "Approved Layout",
+                    "Clear Title",
+                    "Wide Approach Road",
+                    "Electricity Nearby",
+                    "Water Connection Nearby",
+                    "Gated Layout",
+                    "East Open Side",
+                    "Ready for Construction",
+                    "Family Neighbourhood"
+                  ],
+                  "specs": [
+                    {
+                      "label": "Property Type",
+                      "value": "Plot"
+                    },
+                    {
+                      "label": "Project Name",
+                      "value": "UrbanNest Sarjapur"
+                    },
+                    {
+                      "label": "Possession Status",
+                      "value": "Immediate"
+                    },
+                    {
+                      "label": "Furnishing",
+                      "value": "Not Applicable"
+                    },
+                    {
+                      "label": "Construction Status",
+                      "value": "Open Land"
+                    },
+                    {
+                      "label": "RERA ID",
+                      "value": "KRERA332211"
+                    },
+                    {
+                      "label": "Facing",
+                      "value": "East Facing"
+                    },
+                    {
+                      "label": "Age of Property",
+                      "value": "New"
+                    },
+                    {
+                      "label": "Total Floors",
+                      "value": "Ground"
+                    },
+                    {
+                      "label": "Tower",
+                      "value": "Plot 18"
+                    },
+                    {
+                      "label": "Availability",
+                      "value": "Immediate"
+                    }
+                  ],
+                  "amenities": [
+                    {
+                      "label": "Gated Layout",
+                      "icon": "Shield"
+                    },
+                    {
+                      "label": "Wide Road",
+                      "icon": "Route"
+                    },
+                    {
+                      "label": "Street Lights",
+                      "icon": "Lamp"
+                    },
+                    {
+                      "label": "Park Nearby",
+                      "icon": "Trees"
+                    },
+                    {
+                      "label": "Water Line",
+                      "icon": "Droplets"
+                    },
+                    {
+                      "label": "Power Line",
+                      "icon": "Zap"
+                    }
+                  ],
+                  "floor_plan": "/properties/6.webp",
+                  "advantages": [
+                    "On Sarjapur Road belt",
+                    "10 mins to Schools",
+                    "12 mins to Hospital",
+                    "8 mins to Market",
+                    "Near upcoming metro",
+                    "Corner plot advantage"
+                  ],
+                  "landmarks_image": "/properties/4.webp",
+                  "landmarks": [
+                    {
+                      "name": "Sarjapur Road",
+                      "distance": "2.5 km"
+                    },
+                    {
+                      "name": "New Horizon School",
+                      "distance": "3.1 km"
+                    },
+                    {
+                      "name": "Manipal Hospital",
+                      "distance": "6.2 km"
+                    },
+                    {
+                      "name": "Market",
+                      "distance": "2.8 km"
+                    },
+                    {
+                      "name": "IT Corridor",
+                      "distance": "7.4 km"
+                    }
+                  ]
+                }
+              ]
+            },
+            "clients": {
+              "subtitle": "OUR CLIENTS",
+              "title_line1": "Trusted by Our",
+              "title_highlight": "Valued Clients",
+              "description": "We are proud to work with individuals, businesses and organizations who trust us for their property needs.",
+              "items": [
+                {
+                  "name": "DLF",
+                  "image": "/cleint/1.webp"
+                },
+                {
+                  "name": "Godrej",
+                  "image": "/cleint/2.webp"
+                },
+                {
+                  "name": "TATA",
+                  "image": "/cleint/3.webp"
+                },
+                {
+                  "name": "Mahindra",
+                  "image": "/cleint/4.webp"
+                },
+                {
+                  "name": "Prestige",
+                  "image": "/cleint/5.webp"
+                },
+                {
+                  "name": "Brigade",
+                  "image": "/cleint/6.webp"
+                },
+                {
+                  "name": "Lodha",
+                  "image": "/cleint/7.webp"
+                },
+                {
+                  "name": "Sobha",
+                  "image": "/cleint/8.webp"
+                },
+                {
+                  "name": "Adani",
+                  "image": "/cleint/9.webp"
+                },
+                {
+                  "name": "Hiranandani",
+                  "image": "/cleint/10.webp"
+                },
+                {
+                  "name": "Raheja",
+                  "image": "/cleint/11.webp"
+                },
+                {
+                  "name": "Puravankara",
+                  "image": "/cleint/12.webp"
+                },
+                {
+                  "name": "Oberoi",
+                  "image": "/cleint/13.webp"
+                },
+                {
+                  "name": "Signature Global",
+                  "image": "/cleint/14.webp"
+                },
+                {
+                  "name": "M3M",
+                  "image": "/cleint/15.webp"
+                },
+                {
+                  "name": "Client 16",
+                  "image": "/cleint/16.webp"
+                },
+                {
+                  "name": "Client 17",
+                  "image": "/cleint/17.webp"
+                },
+                {
+                  "name": "Client 18",
+                  "image": "/cleint/18.webp"
+                }
+              ]
+            },
+            "blog_details": {
+              "sidebar": {
+                "related_title": "Related Posts",
+                "promo_title": "Looking for Your Dream Property?",
+                "promo_description": "Get expert guidance and the best property options tailored to your needs.",
+                "promo_image": "/blog/1.webp",
+                "promo_button": {
+                  "text": "Explore Properties",
+                  "href": "/properties"
+                }
+              },
+              "items": [
+                {
+                  "slug": "tips-for-buying-your-first-home",
+                  "title": "Top 7 Tips for Buying Your First Home in 2026",
+                  "excerpt": "Buying your first home is a big step. Here are expert tips to help you make the right decision with confidence and ease.",
+                  "image": "/blog/1.webp",
+                  "date": "Aug 27, 2026",
+                  "author": "Admin",
+                  "category": "REAL ESTATE",
+                  "content": [
+                    "Buying your first home is a big step, and the right plan keeps the search calm. Start with a monthly number you can pay, then add registration, interiors, and a small reserve so the first year does not feel tight.",
+                    "Visit the home at different times of day. Check water, parking, the approach road, and the approval papers before you pay a token amount. A clear file and a realistic budget matter more than a rushed booking."
+                  ],
+                  "comments": "3 Comments",
+                  "work_title": "Work Process",
+                  "procedure_title": "Procedure",
+                  "procedure": "Agents use high-quality listing photos, virtual tours, social media marketing, and professional staging to attract more buyers and sell homes faster. To address this, we incorporate onboard batteries to provide supplementary power. However, the temperature can influence battery performance.",
+                  "points": [
+                    "Create a structure where participants will add their information.",
+                    "Efforts without a focus.",
+                    "Many contradicting opinions a vision document.",
+                    "A deliverable for workshop participants.",
+                    "Create a structure where participants will add their information."
+                  ],
+                  "gallery": [
+                    "/blog/3.webp",
+                    "/blog/4.webp"
+                  ],
+                  "after": [
+                    "Start with a number you can pay every month, then add registration and interiors.",
+                    "Visit the home at different times of day and check water, parking, and the approach road."
+                  ]
+                },
+                {
+                  "slug": "investing-in-property",
+                  "title": "Renting vs Buying: Which is Right for You?",
+                  "excerpt": "Confused between renting and buying a property? We break down the pros and cons to help you choose the best option.",
+                  "image": "/blog/2.webp",
+                  "date": "Aug 27, 2026",
+                  "author": "Admin",
+                  "category": "PROPERTY TIPS",
+                  "content": [
+                    "Renting and buying solve different problems. A rented home is flexible when your job or city may change. A bought home builds a place of your own when you plan to stay and can carry the monthly cost.",
+                    "Write both options on one page: rent, loan, maintenance, and how soon you need to move. The better choice is the one that fits your timeline, not the one that looks cheaper on the first month."
+                  ],
+                  "comments": "3 Comments",
+                  "work_title": "Work Process",
+                  "procedure_title": "Procedure",
+                  "procedure": "Agents use high-quality listing photos, virtual tours, social media marketing, and professional staging to attract more buyers and sell homes faster. To address this, we incorporate onboard batteries to provide supplementary power. However, the temperature can influence battery performance.",
+                  "points": [
+                    "Compare rent and a home loan on the same monthly budget.",
+                    "Check the lock-in and the maintenance before you decide.",
+                    "Visit both a ready home and a new launch.",
+                    "Write down the move-in date you actually need.",
+                    "Keep a buffer for registration and interiors."
+                  ],
+                  "gallery": [
+                    "/blog/2.webp",
+                    "/blog/5.webp"
+                  ],
+                  "after": [
+                    "A ready home can be rented sooner. A plot needs more time and a builder.",
+                    "Look at the neighbourhood five years ahead, not only today's price."
+                  ]
+                },
+                {
+                  "slug": "real-estate-trends",
+                  "title": "Real Estate Trends to Watch in 2026",
+                  "excerpt": "Discover the latest real estate trends, emerging opportunities and what to expect in the property market this year.",
+                  "image": "/blog/1.webp",
+                  "date": "Aug 27, 2026",
+                  "author": "Admin",
+                  "category": "MARKET TRENDS",
+                  "content": [
+                    "Buyers in 2026 are asking for more light, a quiet work corner, and parking that is actually usable. Homes that show a clear price and a finished common area are getting visits faster than homes sold only on discount.",
+                    "Gated communities near a school, a clinic, and a daily market are moving first. Watch the road and the water supply as closely as the floor plan, because those decide how the home feels after you move in."
+                  ],
+                  "comments": "3 Comments",
+                  "work_title": "Work Process",
+                  "procedure_title": "Procedure",
+                  "procedure": "Agents use high-quality listing photos, virtual tours, social media marketing, and professional staging to attract more buyers and sell homes faster. To address this, we incorporate onboard batteries to provide supplementary power. However, the temperature can influence battery performance.",
+                  "points": [
+                    "Watch how buyers are choosing larger balconies.",
+                    "Note which locations are getting new roads.",
+                    "Track ready homes against new launches.",
+                    "Ask what amenities people use every week.",
+                    "Price clarity is moving more visits than discounts."
+                  ],
+                  "gallery": [
+                    "/blog/1.webp",
+                    "/blog/6.webp"
+                  ],
+                  "after": [
+                    "Buyers want more light, a work corner, and parking that is actually usable.",
+                    "Gated communities with a clinic and a school nearby are moving faster."
+                  ]
+                },
+                {
+                  "slug": "home-loan-checklist",
+                  "title": "Home Loan Checklist Before You Apply",
+                  "excerpt": "A short list of papers, costs, and questions to settle before you sign a home loan.",
+                  "image": "/blog/4.webp",
+                  "date": "Sep 02, 2026",
+                  "author": "Admin",
+                  "category": "REAL ESTATE",
+                  "content": [
+                    "A home loan is easier when the papers and the full cost are ready before you apply. Compare the total amount you will pay, not only the headline interest rate, and keep income proofs and property papers in one folder.",
+                    "Ask how prepayment works, what the processing fee covers, and how the EMI changes if the rate moves. A loan you can close early, and still pay every month without strain, is the one worth signing."
+                  ],
+                  "comments": "3 Comments",
+                  "work_title": "Work Process",
+                  "procedure_title": "Procedure",
+                  "procedure": "Agents use high-quality listing photos, virtual tours, social media marketing, and professional staging to attract more buyers and sell homes faster. To address this, we incorporate onboard batteries to provide supplementary power. However, the temperature can influence battery performance.",
+                  "points": [
+                    "List income proofs before the bank visit.",
+                    "Compare the full cost, not only the rate.",
+                    "Ask about prepayment rules.",
+                    "Keep the property papers in one set.",
+                    "Match the EMI to a number you can pay."
+                  ],
+                  "gallery": [
+                    "/blog/4.webp",
+                    "/blog/1.webp"
+                  ],
+                  "after": [
+                    "Compare the total cost, not only the headline interest rate.",
+                    "Keep income proofs and property papers in one folder before the bank visit."
+                  ]
+                },
+                {
+                  "slug": "choosing-the-right-location",
+                  "title": "How to Choose the Right Location",
+                  "excerpt": "Schools, roads, and daily travel matter as much as the floor plan. Here is how to judge a location.",
+                  "image": "/blog/5.webp",
+                  "date": "Sep 04, 2026",
+                  "author": "Admin",
+                  "category": "PROPERTY TIPS",
+                  "content": [
+                    "The right location is the one that fits your day, not only the brochure map. Time the commute at the hour you actually leave, and check schools, shops, water, and a clinic within a short drive.",
+                    "Walk the street in the evening and see the approach road in rain. A quieter lane with a clean access often holds its value better than a main-road front that looks busy only in photographs."
+                  ],
+                  "comments": "3 Comments",
+                  "work_title": "Work Process",
+                  "procedure_title": "Procedure",
+                  "procedure": "Agents use high-quality listing photos, virtual tours, social media marketing, and professional staging to attract more buyers and sell homes faster. To address this, we incorporate onboard batteries to provide supplementary power. However, the temperature can influence battery performance.",
+                  "points": [
+                    "Time the commute at your real leaving hour.",
+                    "Check water, shops, and a clinic nearby.",
+                    "Walk the street in the evening.",
+                    "See how the approach road feels in rain.",
+                    "A quieter street often holds value better."
+                  ],
+                  "gallery": [
+                    "/blog/5.webp",
+                    "/blog/2.webp"
+                  ],
+                  "after": [
+                    "Time the commute at the hour you actually leave for work.",
+                    "Check water, shops, and a clinic within a short drive."
+                  ]
+                },
+                {
+                  "slug": "ready-vs-under-construction",
+                  "title": "Ready Home or Under Construction",
+                  "excerpt": "Both options can work. The better choice depends on your timeline and how soon you need to move.",
+                  "image": "/blog/6.webp",
+                  "date": "Sep 08, 2026",
+                  "author": "Admin",
+                  "category": "MARKET TRENDS",
+                  "content": [
+                    "A ready home lets you move in after the paperwork. An under-construction home can cost less today, but it needs a builder you can track and a possession date that matches your rent or current home.",
+                    "Visit the site, read the handover date in writing, and keep a buffer for delay. Choose the option that fits when you need the keys, not only the one with the lower launch price."
+                  ],
+                  "comments": "3 Comments",
+                  "work_title": "Work Process",
+                  "procedure_title": "Procedure",
+                  "procedure": "Agents use high-quality listing photos, virtual tours, social media marketing, and professional staging to attract more buyers and sell homes faster. To address this, we incorporate onboard batteries to provide supplementary power. However, the temperature can influence battery performance.",
+                  "points": [
+                    "A ready home lets you move after the papers.",
+                    "An under-construction home needs a builder you can track.",
+                    "Match possession to your current rent timeline.",
+                    "Visit the site, not only the brochure.",
+                    "Keep a written date for handover."
+                  ],
+                  "gallery": [
+                    "/blog/6.webp",
+                    "/blog/3.webp"
+                  ],
+                  "after": [
+                    "A ready home lets you move in after the paperwork.",
+                    "An under-construction home needs a builder you can track."
+                  ]
+                }
+              ]
+            },
+            "not_found": {
+              "title": "Page Not Found",
+              "description": "The page you are looking for is not available.",
+              "button": {
+                "text": "Back to Home",
+                "href": "/"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
